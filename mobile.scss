@@ -1,0 +1,52 @@
+@media (max-width: 500px) {
+  #header {
+    margin-bottom: 0;
+  }
+  #navList li:not(:last-child) {
+    margin-right: 0;
+  }
+  #main {
+    padding: 0;
+  }
+  #mainContent {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+  #sideBar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    float: none;
+    width: 100%;
+    margin: auto;
+    box-shadow: none;
+  }
+  #blog-sidecolumn {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+  }
+  #sidebar_categories {
+    display: none;
+  }
+  #navList {
+    padding: 10px 0;
+  }
+  #navList li {
+    box-sizing: border-box;
+    width: 25%;
+  }
+  #navList li a {
+    margin-right: 0;
+    padding: 0;
+  }
+  #MySignature,
+  #comment_form
+  {
+    display: none;
+  }
+  #green_channel{
+    a{
+      margin-right: 2px;
+    }
+  }
+}
