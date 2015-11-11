@@ -390,7 +390,8 @@ a:hover {
   transition: color 0.25s, background 0.5s;
 }
 
-.topicListFooter a {
+/*首页 的 下一页按钮*/
+#nav_next_page a {
   @include btn-page;
   &:hover {
     color: white;
@@ -402,6 +403,7 @@ a:hover {
   }
 }
 
+/*其他页 上一页和下一页*/
 #homepage1_HomePageDays_homepage_bottom_pager .pager {
   font-size: 0;
   a {
