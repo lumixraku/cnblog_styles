@@ -22,7 +22,7 @@ gulp.task('watch',function(){
   ]);
 });
 
-gulp.task('min', function(){
+gulp.task('min', ['rsass'], function(){
   gulp.src('style.css')
   .pipe(minifycss())
   .pipe(gulp.dest('./'));

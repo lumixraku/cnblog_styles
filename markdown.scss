@@ -834,3 +834,8 @@
 
     border-color: #4183c4;
 }
+
+/*部分markdown颜色修正*/
+.hljs-keyword, .hljs-id, .hljs-built_in, .css .smalltalk .hljs-class, .hljs-winutils, .bash .hljs-variable, .tex .hljs-command, .hljs-request, .hljs-status, .nginx .hljs-title, .xml .hljs-tag, .xml .hljs-tag .hljs-value{
+      color: #71BD8D;
+}
